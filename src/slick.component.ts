@@ -44,7 +44,7 @@ export class SlickComponent implements AfterViewInit, OnDestroy {
      * On component destroy
      */
     ngOnDestroy() {
-        this.unslick();
+        //this.unslick();
     }
 
     /**
@@ -158,6 +158,6 @@ export class SlickItemDirective implements AfterViewInit, OnDestroy {
     }
 
     ngOnDestroy() {
-        this.carousel.removeSlide(this);
+        //this.carousel.removeSlide(this);
     }
 }
